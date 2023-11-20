@@ -1,0 +1,100 @@
+/* UserProfile.css */
+.user-profile-logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px; /* Adjust as needed */
+  }
+  
+  .user-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the profile picture container */
+  .profile-pic-container {
+    width: 150px; /* Ensure this matches the image's width */
+    height: 150px; /* Ensure this matches the image's height */
+    border-radius: 50%; /* Perfect circle */
+    overflow: hidden; /* Ensures the overlay doesn't exceed the circular boundary */
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the profile picture */
+  .user-profile-container img {
+    width: 100%; /* Use percentage to ensure it fills the container */
+    height: 100%; /* Use percentage to ensure it fills the container */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .user-profile-container h1, h3 {
+    text-align: center;
+  }
+  
+  .about-section {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the overlay that appears on hover */
+  .profile-pic-edit-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Match the container's size */
+    height: 25%; /* Half height of the container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    border-bottom-left-radius: 50%; /* Rounded corners at the bottom */
+    border-bottom-right-radius: 50%; /* Rounded corners at the bottom */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Hover effect for the profile picture */
+  .profile-pic-container:hover .profile-pic-edit-overlay {
+    opacity: 1;
+  }
+  
+  /* Styles for the edit icon */
+  .edit-icon {
+    color: white;
+    font-size: 24px; /* Adjust as needed */
+    /* Additional styles can be added as needed */
+  }
+  
+  /* Styles for the logout button */
+  .logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: none;
+    background-color: transparent;
+    color: #333; /* Adjust the color */
+    font-size: 24px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for the button if needed */
+  .logout-button:hover {
+    color: #555; /* Adjust hover color */
+  }
+  
+  /* Styles for the PostCreation component */
+.post-creation {
+  margin-top: 20px; /* Add spacing between "About Me" and the post creation */
+  /* Add other styles as needed */
+}
