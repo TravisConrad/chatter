@@ -1,9 +1,9 @@
 Here is a preview of my personal project for now in its beginning stages.
-Here is the login screen: ![LoginScreen](https://github.com/TravisConrad/chatter/assets/108857271/5af3fc4f-971f-4ebb-a59b-45179ac70396)
+Here is the login screen: ![LoginScreen](https://github.com/TravisConrad/chatter/assets/108857271/d6f79e10-2ef8-4b24-90a5-68ebc9cbbd0f)
 
-Here is the register screen: ![RegisterScreen](https://github.com/TravisConrad/chatter/assets/108857271/0b93b1b4-02f5-43d4-8dc2-71b08578ad85)
+Here is the register screen: ![RegisterScreen](https://github.com/TravisConrad/chatter/assets/108857271/2e00b4b0-efcc-49b1-ba4b-8b8128b91dbc)
 
-Here is the user profile screen: ![UserProfile](https://github.com/TravisConrad/chatter/assets/108857271/88e67e06-e321-483c-9829-d1f6c31fa330)
+Here is the user profile screen: ![UserProfile](https://github.com/TravisConrad/chatter/assets/108857271/b020541a-fa64-4ff8-85f7-e56e0a5b7dec)
 
 These are rough ideas that are currently a work in progress as a personal project. Currently this connects to a database from MongoDB.
 
