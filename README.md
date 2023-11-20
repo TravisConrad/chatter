@@ -1,3 +1,13 @@
+Here is a preview of my personal project for now in its beginning stages.
+Here is the login screen: ![LoginScreen](https://github.com/TravisConrad/chatter/assets/108857271/5af3fc4f-971f-4ebb-a59b-45179ac70396)
+
+Here is the register screen: ![RegisterScreen](https://github.com/TravisConrad/chatter/assets/108857271/0b93b1b4-02f5-43d4-8dc2-71b08578ad85)
+
+Here is the user profile screen: ![UserProfile](https://github.com/TravisConrad/chatter/assets/108857271/88e67e06-e321-483c-9829-d1f6c31fa330)
+
+These are rough ideas that are currently a work in progress as a personal project. Currently this connects to a database from MongoDB.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
